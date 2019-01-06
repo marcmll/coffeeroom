@@ -44,8 +44,8 @@
 				<a href="javascript:openMenu();"><i class="fas fa-bars"></i></a>
 			</div><a href="./index.html" class="logo"><img src="./media/logo/logo.svg" alt="Coffee Room Logo"/></a><div class="rightNav">
 				<ul>
-					<li><a href="https://www.facebook.com/coffeeroom/"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="https://www.instagram.com/coffeeroom/"><i class="fab fa-instagram"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/coffeeroom/"><i class="fab fa-facebook"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/coffeeroom/"><i class="fab fa-instagram"></i></a></li>
 				</ul>
 				<a class="button" href="./kontakt.html">Kontakt</a>
 				<a class="mobileButton" href="./kontakt.html"><i class="far fa-envelope"></i></a>
@@ -83,14 +83,13 @@
 
 			<!-- Kontakt Form -->
 			<form>
-				<input class="input50" type="text" name="name" placeholder="Name *"/><input class="input50" type="email" name="email" placeholder="E-Mail *"/>
-				<input class="input100" type="text" name="betreff" placeholder="Betreff *"/>
-				<textarea type="text" name="betreff" placeholder="Nachricht *"></textarea>
+				<input class="input50" type="text" name="name" id="kontaktName" placeholder="Name *" required/><input class="input50" type="email" name="email" id="kontaktEmail" placeholder="E-Mail *" required/>
+				<input class="input100" type="text" name="betreff" id="kontaktBetreff" placeholder="Betreff *" required/>
+				<textarea type="text" name="nachricht" id="kontaktNachricht" placeholder="Nachricht *" required></textarea>
 				<div class="submit">
-					<a class="button" href="#">Nachricht Verschicken</a>
-					<input type="checkbox" name="checkbox" id=""><label for="checkbox_id">Ich stimme der <a href="./datenschutz.html">Datenschutzerklärung</a> zu *</label>
+					<input class="button" type="submit" value="Nachricht Verschicken">
+					<input type="checkbox" name="checkbox" id="kontaktDatenschutzCheck" required><label for="checkbox_id">Ich stimme der <a href="./datenschutz.html">Datenschutzerklärung</a> zu *</label>
 				</div>
-
 			</form>
 
 			<!-- Quick Information -->
