@@ -1223,3 +1223,15 @@ footer {
 		}
 
 }
+
+@media screen and (max-width: 375px) {
+
+	main section.legalText ol {
+		padding: 0 0 0 25px !important;
+	}
+
+		main section.legalText ol ul {
+			padding: 0 0 0 10px !important;
+		}
+
+}
