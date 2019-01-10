@@ -109,6 +109,8 @@ header {
 		color: #555555;
 	}
 
+	/* Header Style Mobile */
+
 	header .mobileMenu {
 		vertical-align: top;
 		display: none;
@@ -126,6 +128,8 @@ header {
 			header .mobileMenu a i {
 				color: #121212;
 			}
+
+	/* Logo Styling */
 
 	header .logo {
 		line-height: 0px;
@@ -302,6 +306,8 @@ main section.imageText {
 	display: inline-block;
 }
 
+	/* Bild Styling */
+
 	main section.imageText .image {
 		width: 50%;
 		padding: 0px;
@@ -309,6 +315,8 @@ main section.imageText {
 		object-fit: cover;
 		display: inline-block;
 	}
+
+	/* Text Styling */
 
 	main section.imageText .content {
 		width: 50%;
@@ -330,6 +338,8 @@ main section.imageText {
 			vertical-align: top;
 			display: inline-block;
 		}
+
+			/* Event Infos */
 
 			main section.imageText .content ul li {
 				color: #646464;
@@ -416,6 +426,8 @@ main section.menu {
 		margin: 0 0 0 40px;
 	}
 
+		/* Menü Unterpunkte */
+
 		main section.menu ul {
 			width: 100%;
 			padding: 5px 0;
@@ -444,6 +456,8 @@ main section.menu {
 			display: inline-block;
 		}
 
+			/* Gericht / Getränke Name und Preis Styling */
+
 			main section.menu ol ul li:nth-child(odd) {
 				width: calc(100% - 70px);
 				display: inline-block;
@@ -462,6 +476,8 @@ form {
 	margin: 40px auto 0 auto;
 	padding: 0px;
 }
+
+	/* Input & Textarea styling */
 
 	form input[type="text"], form input[type="email"] {
 		width: calc(100% - 20px);
@@ -484,6 +500,8 @@ form {
 		height: 200px;
 		resize: vertical;
 	}
+
+	/* Abschick Leiste */
 
 	form .submit {
 		width: 100%;
@@ -555,6 +573,8 @@ main section.legalText {
 		main section.legalText p.lessTopMargin {
 			margin: 30px 0 0 0;
 		}
+
+	/* Bildrechte Liste */
 
 	main section.legalText ol {
 		margin: 0px;
